@@ -1,0 +1,5 @@
+{
+  "name": "upbit-relay-server",
+  "slug": "upbit-relay-server",
+  "description": "Relay server for Upbit API to bypass CloudFlare restrictions"
+}

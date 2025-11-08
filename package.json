@@ -1,0 +1,32 @@
+{
+  "name": "upbit-relay-server",
+  "version": "1.0.0",
+  "description": "Relay server to bypass CloudFlare restrictions for Upbit API access",
+  "main": "relay-server.js",
+  "scripts": {
+    "start": "node relay-server.js",
+    "dev": "nodemon relay-server.js",
+    "test": "curl http://localhost:3000/health"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "keywords": [
+    "upbit",
+    "relay",
+    "proxy",
+    "cloudflare",
+    "bypass"
+  ],
+  "author": "Upbit Detector",
+  "license": "MIT",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  }
+}
