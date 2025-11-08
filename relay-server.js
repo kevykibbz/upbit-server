@@ -86,7 +86,7 @@ app.get("/", (req, res) => {
     environment: process.env.NODE_ENV || "development",
     endpoints: {
       announcements:
-        "/api/v1/announcements?os=web&page=1&per_page=3&category=trade",
+        "/api/v1/announcements?os=web&page=1&per_page=1&category=trade",
       health: "/health",
     },
     target: TARGET_URL,
