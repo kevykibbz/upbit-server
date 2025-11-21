@@ -1,0 +1,5 @@
+{
+    "powerquery.client.additionalSymbolsDirectories": [
+        "c:/Users/user/techzone/upbit-server/.vscode/excel-pq-symbols"
+    ]
+}
